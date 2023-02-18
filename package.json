@@ -1,0 +1,19 @@
+{
+  "name": "richa",
+  "version": "1.0.0",
+  "description": "for exp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo error no 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github.com/singhrichasingh.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/github.com/singhrichasingh/issues"
+  },
+  "homepage": "https://github.com/github.com/singhrichasingh#readme"
+}
