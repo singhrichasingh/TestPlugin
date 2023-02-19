@@ -12,5 +12,6 @@
 </feature>
 </config-file>
 <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+<source-file src="src/android/Richa.java" target-dir="src/cordova/plugin/richa/Richa" />
 </platform>
 </plugin>
