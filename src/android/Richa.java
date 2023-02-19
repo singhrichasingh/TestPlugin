@@ -47,10 +47,18 @@ public class Richa extends CordovaPlugin {
             this.callTakePicture(destType, encodingType);
             return true;
         }
+       else  if (action.equals("init")) {
+                this.init(callbackContext);
+                return true;
+            }
         return false;
     }
  
-    
+    public void init(CallbackContext callbackContext){
+        LOG.d(LOG_TAG, "started");
+        callbackContext.success("3 startgs");
+    }
+
     public void callTakePicture(int returnType, int encodingType) {
         boolean saveAlbumPermission = PermissionHelper.hasPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE)
                 && PermissionHelper.hasPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE);
