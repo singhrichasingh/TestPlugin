@@ -7,7 +7,7 @@
 <platform name="android">
 <config-file parent="/*" target="res/xml/config.xml">
 <feature name="Richa">
-<param name="android-package" value="cordova-plugin-richa.Richa" />
+<param name="android-package" value="cordova.plugin.richa.Richa" />
 </feature>
 </config-file>
 <config-file parent="/*" target="AndroidManifest.xml"></config-file>
